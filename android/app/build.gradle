@@ -264,6 +264,10 @@ dependencies {
 
     //noinspection GradleDynamicVersion
     implementation "com.facebook.react:react-native:+"  // From node_modules
+    // For developers using AndroidX in their applications
+    implementation 'pub.devrel:easypermissions:3.0.0'
+    // For developers using the Android Support Library
+    implementation 'pub.devrel:easypermissions:2.0.1'
 
     implementation "androidx.swiperefreshlayout:swiperefreshlayout:1.0.0"
 
