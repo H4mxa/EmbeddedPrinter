@@ -1,0 +1,6 @@
+module Pods_embeddePrinter {
+  umbrella header "Pods-embeddePrinter-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,11 +1,4 @@
 {
-  "expo": {
-    "name": "embeddedPrinter",
-    "slug": "embeddedPrinter",
-    "version": "1.0.0",
-    "assetBundlePatterns": [
-      "**/*"
-    ]
-  },
-  "name": "embeddedPrinter"
+  "name": "embeddePrinter",
+  "displayName": "embeddePrinter"
 }
