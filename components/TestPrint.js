@@ -5,7 +5,7 @@ const TestPrint = () => {
   const { EmbeddedPrinter } = NativeModules;
 
   const HandleNativeModules = () => {
-    EmbeddedPrinter.initPrinter().then((response, error) => {
+    EmbeddedPrinter.getSmartpeakPermissions().then((response, error) => {
       Alert.alert("Response from Embedded Printer is [ " + response + " ]");
     });
   };

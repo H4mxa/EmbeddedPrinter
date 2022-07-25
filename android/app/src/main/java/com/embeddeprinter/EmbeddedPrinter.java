@@ -68,8 +68,8 @@ public class EmbeddedPrinter extends ReactContextBaseJavaModule implements EasyP
         p.resolve("Hello world");
     }
 
-    @AfterPermissionGranted(REQUEST_PERMISSION)
-    private void getSmartpeakPermissions() {
+    @ReactMethod
+    public void getSmartpeakPermissions(final Promise p) {
         String[] perms = {
                 "com.pos.permission.SECURITY",
                 "com.pos.permission.PRINTER",
@@ -86,6 +86,8 @@ public class EmbeddedPrinter extends ReactContextBaseJavaModule implements EasyP
                             .setPositiveButtonText("YES")
                             .build()
             );
+
+            p.resolve("Hello world");
         }
     }
 
