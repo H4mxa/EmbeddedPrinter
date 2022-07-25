@@ -20,8 +20,7 @@ public class EmbeddedPrinterPackage implements ReactPackage {
                               ReactApplicationContext reactContext) {
     List<NativeModule> modules = new ArrayList<>();
 
-    modules.add((NativeModule) new EmbeddedPrinter(reactContext));
-
+    modules.add(new EmbeddedPrinter(reactContext));
     return modules;
   }
 }
