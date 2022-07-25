@@ -64,7 +64,6 @@ public class EmbeddedPrinter extends ReactContextBaseJavaModule implements EasyP
 
     @ReactMethod
     public void initPrinter(final Promise p) {
-
         getSmartpeakPermissions();
         p.resolve("Hello world");
     }
