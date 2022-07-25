@@ -9,76 +9,76 @@
 9        android:targetSdkVersion="31" />
 10
 11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
-11-->C:\Users\Shady\AndroidStudioProjects\egpay\EmbeddedPrinter\android\app\src\debug\AndroidManifest.xml:5:5-77
-11-->C:\Users\Shady\AndroidStudioProjects\egpay\EmbeddedPrinter\android\app\src\debug\AndroidManifest.xml:5:22-75
+11-->/Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/debug/AndroidManifest.xml:5:22-75
 12    <uses-permission android:name="android.permission.INTERNET" />
-12-->C:\Users\Shady\AndroidStudioProjects\egpay\EmbeddedPrinter\android\app\src\main\AndroidManifest.xml:4:5-67
-12-->C:\Users\Shady\AndroidStudioProjects\egpay\EmbeddedPrinter\android\app\src\main\AndroidManifest.xml:4:22-64
+12-->/Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:4:5-67
+12-->/Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:4:22-64
 13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-13-->[com.facebook.flipper:flipper:0.125.0] C:\Users\Shady\.gradle\caches\transforms-3\b2ec3232205e095c09543a31d56ae642\transformed\jetified-flipper-0.125.0\AndroidManifest.xml:16:5-76
-13-->[com.facebook.flipper:flipper:0.125.0] C:\Users\Shady\.gradle\caches\transforms-3\b2ec3232205e095c09543a31d56ae642\transformed\jetified-flipper-0.125.0\AndroidManifest.xml:16:22-73
+13-->[com.facebook.flipper:flipper:0.125.0] /Users/arkhitech/.gradle/caches/transforms-3/b2ec3232205e095c09543a31d56ae642/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:16:5-76
+13-->[com.facebook.flipper:flipper:0.125.0] /Users/arkhitech/.gradle/caches/transforms-3/b2ec3232205e095c09543a31d56ae642/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:16:22-73
 14
 15    <application
-15-->C:\Users\Shady\AndroidStudioProjects\egpay\EmbeddedPrinter\android\app\src\main\AndroidManifest.xml:6:5-25:19
+15-->/Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:6:5-25:19
 16        android:name="com.embeddeprinter.MainApplication"
-16-->C:\Users\Shady\AndroidStudioProjects\egpay\EmbeddedPrinter\android\app\src\main\AndroidManifest.xml:7:7-38
+16-->/Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:7:7-38
 17        android:allowBackup="false"
-17-->C:\Users\Shady\AndroidStudioProjects\egpay\EmbeddedPrinter\android\app\src\main\AndroidManifest.xml:11:7-34
+17-->/Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:11:7-34
 18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-18-->[androidx.core:core:1.5.0] C:\Users\Shady\.gradle\caches\transforms-3\f382564408e8806e991bcb7c984abfd6\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
+18-->[androidx.core:core:1.5.0] /Users/arkhitech/.gradle/caches/transforms-3/f382564408e8806e991bcb7c984abfd6/transformed/core-1.5.0/AndroidManifest.xml:24:18-86
 19        android:debuggable="true"
 20        android:icon="@mipmap/ic_launcher"
-20-->C:\Users\Shady\AndroidStudioProjects\egpay\EmbeddedPrinter\android\app\src\main\AndroidManifest.xml:9:7-41
+20-->/Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:9:7-41
 21        android:label="@string/app_name"
-21-->C:\Users\Shady\AndroidStudioProjects\egpay\EmbeddedPrinter\android\app\src\main\AndroidManifest.xml:8:7-39
+21-->/Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:8:7-39
 22        android:roundIcon="@mipmap/ic_launcher_round"
-22-->C:\Users\Shady\AndroidStudioProjects\egpay\EmbeddedPrinter\android\app\src\main\AndroidManifest.xml:10:7-52
+22-->/Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:10:7-52
 23        android:testOnly="true"
 24        android:theme="@style/AppTheme"
-24-->C:\Users\Shady\AndroidStudioProjects\egpay\EmbeddedPrinter\android\app\src\main\AndroidManifest.xml:12:7-38
+24-->/Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:12:7-38
 25        android:usesCleartextTraffic="true" >
-25-->C:\Users\Shady\AndroidStudioProjects\egpay\EmbeddedPrinter\android\app\src\debug\AndroidManifest.xml:8:9-44
+25-->/Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/debug/AndroidManifest.xml:8:9-44
 26        <activity
-26-->C:\Users\Shady\AndroidStudioProjects\egpay\EmbeddedPrinter\android\app\src\debug\AndroidManifest.xml:11:9-111
+26-->/Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/debug/AndroidManifest.xml:11:9-111
 27            android:name="com.facebook.react.devsupport.DevSettingsActivity"
-27-->C:\Users\Shady\AndroidStudioProjects\egpay\EmbeddedPrinter\android\app\src\debug\AndroidManifest.xml:11:19-83
+27-->/Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/debug/AndroidManifest.xml:11:19-83
 28            android:exported="false" />
-28-->C:\Users\Shady\AndroidStudioProjects\egpay\EmbeddedPrinter\android\app\src\debug\AndroidManifest.xml:11:84-108
+28-->/Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/debug/AndroidManifest.xml:11:84-108
 29        <activity
-29-->C:\Users\Shady\AndroidStudioProjects\egpay\EmbeddedPrinter\android\app\src\main\AndroidManifest.xml:13:7-24:18
+29-->/Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:13:7-24:18
 30            android:name="com.embeddeprinter.MainActivity"
-30-->C:\Users\Shady\AndroidStudioProjects\egpay\EmbeddedPrinter\android\app\src\main\AndroidManifest.xml:14:9-37
+30-->/Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:14:9-37
 31            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
-31-->C:\Users\Shady\AndroidStudioProjects\egpay\EmbeddedPrinter\android\app\src\main\AndroidManifest.xml:16:9-118
+31-->/Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:16:9-118
 32            android:exported="true"
-32-->C:\Users\Shady\AndroidStudioProjects\egpay\EmbeddedPrinter\android\app\src\main\AndroidManifest.xml:19:9-32
+32-->/Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:19:9-32
 33            android:label="@string/app_name"
-33-->C:\Users\Shady\AndroidStudioProjects\egpay\EmbeddedPrinter\android\app\src\main\AndroidManifest.xml:15:9-41
+33-->/Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:15:9-41
 34            android:launchMode="singleTask"
-34-->C:\Users\Shady\AndroidStudioProjects\egpay\EmbeddedPrinter\android\app\src\main\AndroidManifest.xml:17:9-40
+34-->/Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:17:9-40
 35            android:windowSoftInputMode="adjustResize" >
-35-->C:\Users\Shady\AndroidStudioProjects\egpay\EmbeddedPrinter\android\app\src\main\AndroidManifest.xml:18:9-51
+35-->/Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:18:9-51
 36            <intent-filter>
-36-->C:\Users\Shady\AndroidStudioProjects\egpay\EmbeddedPrinter\android\app\src\main\AndroidManifest.xml:20:9-23:25
+36-->/Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:20:9-23:25
 37                <action android:name="android.intent.action.MAIN" />
-37-->C:\Users\Shady\AndroidStudioProjects\egpay\EmbeddedPrinter\android\app\src\main\AndroidManifest.xml:21:13-65
-37-->C:\Users\Shady\AndroidStudioProjects\egpay\EmbeddedPrinter\android\app\src\main\AndroidManifest.xml:21:21-62
+37-->/Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:21:13-65
+37-->/Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:21:21-62
 38
 39                <category android:name="android.intent.category.LAUNCHER" />
-39-->C:\Users\Shady\AndroidStudioProjects\egpay\EmbeddedPrinter\android\app\src\main\AndroidManifest.xml:22:13-73
-39-->C:\Users\Shady\AndroidStudioProjects\egpay\EmbeddedPrinter\android\app\src\main\AndroidManifest.xml:22:23-70
+39-->/Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:22:13-73
+39-->/Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:22:23-70
 40            </intent-filter>
 41        </activity>
 42        <activity
-42-->[pub.devrel:easypermissions:3.0.0] C:\Users\Shady\.gradle\caches\transforms-3\03fc674d7b5fe4b0969271e1b9dde459\transformed\jetified-easypermissions-3.0.0\AndroidManifest.xml:12:9-16:66
+42-->[pub.devrel:easypermissions:3.0.0] /Users/arkhitech/.gradle/caches/transforms-3/03fc674d7b5fe4b0969271e1b9dde459/transformed/jetified-easypermissions-3.0.0/AndroidManifest.xml:12:9-16:66
 43            android:name="pub.devrel.easypermissions.AppSettingsDialogHolderActivity"
-43-->[pub.devrel:easypermissions:3.0.0] C:\Users\Shady\.gradle\caches\transforms-3\03fc674d7b5fe4b0969271e1b9dde459\transformed\jetified-easypermissions-3.0.0\AndroidManifest.xml:13:13-86
+43-->[pub.devrel:easypermissions:3.0.0] /Users/arkhitech/.gradle/caches/transforms-3/03fc674d7b5fe4b0969271e1b9dde459/transformed/jetified-easypermissions-3.0.0/AndroidManifest.xml:13:13-86
 44            android:exported="false"
-44-->[pub.devrel:easypermissions:3.0.0] C:\Users\Shady\.gradle\caches\transforms-3\03fc674d7b5fe4b0969271e1b9dde459\transformed\jetified-easypermissions-3.0.0\AndroidManifest.xml:14:13-37
+44-->[pub.devrel:easypermissions:3.0.0] /Users/arkhitech/.gradle/caches/transforms-3/03fc674d7b5fe4b0969271e1b9dde459/transformed/jetified-easypermissions-3.0.0/AndroidManifest.xml:14:13-37
 45            android:label=""
-45-->[pub.devrel:easypermissions:3.0.0] C:\Users\Shady\.gradle\caches\transforms-3\03fc674d7b5fe4b0969271e1b9dde459\transformed\jetified-easypermissions-3.0.0\AndroidManifest.xml:15:13-29
+45-->[pub.devrel:easypermissions:3.0.0] /Users/arkhitech/.gradle/caches/transforms-3/03fc674d7b5fe4b0969271e1b9dde459/transformed/jetified-easypermissions-3.0.0/AndroidManifest.xml:15:13-29
 46            android:theme="@style/EasyPermissions.Transparent" />
-46-->[pub.devrel:easypermissions:3.0.0] C:\Users\Shady\.gradle\caches\transforms-3\03fc674d7b5fe4b0969271e1b9dde459\transformed\jetified-easypermissions-3.0.0\AndroidManifest.xml:16:13-63
+46-->[pub.devrel:easypermissions:3.0.0] /Users/arkhitech/.gradle/caches/transforms-3/03fc674d7b5fe4b0969271e1b9dde459/transformed/jetified-easypermissions-3.0.0/AndroidManifest.xml:16:13-63
 47    </application>
 48
 49</manifest>
