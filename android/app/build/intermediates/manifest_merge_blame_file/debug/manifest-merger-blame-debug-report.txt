@@ -15,69 +15,121 @@
 12-->/Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:4:5-67
 12-->/Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:4:22-64
 13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-13-->[com.facebook.flipper:flipper:0.125.0] /Users/arkhitech/.gradle/caches/transforms-3/b2ec3232205e095c09543a31d56ae642/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:16:5-76
-13-->[com.facebook.flipper:flipper:0.125.0] /Users/arkhitech/.gradle/caches/transforms-3/b2ec3232205e095c09543a31d56ae642/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:16:22-73
-14
-15    <application
-15-->/Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:6:5-25:19
-16        android:name="com.embeddeprinter.MainApplication"
-16-->/Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:7:7-38
-17        android:allowBackup="false"
-17-->/Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:11:7-34
-18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-18-->[androidx.core:core:1.5.0] /Users/arkhitech/.gradle/caches/transforms-3/f382564408e8806e991bcb7c984abfd6/transformed/core-1.5.0/AndroidManifest.xml:24:18-86
-19        android:debuggable="true"
-20        android:icon="@mipmap/ic_launcher"
-20-->/Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:9:7-41
-21        android:label="@string/app_name"
-21-->/Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:8:7-39
-22        android:roundIcon="@mipmap/ic_launcher_round"
-22-->/Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:10:7-52
-23        android:theme="@style/AppTheme"
-23-->/Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:12:7-38
-24        android:usesCleartextTraffic="true" >
-24-->/Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/debug/AndroidManifest.xml:8:9-44
-25        <activity
-25-->/Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/debug/AndroidManifest.xml:11:9-111
-26            android:name="com.facebook.react.devsupport.DevSettingsActivity"
-26-->/Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/debug/AndroidManifest.xml:11:19-83
-27            android:exported="false" />
-27-->/Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/debug/AndroidManifest.xml:11:84-108
-28        <activity
-28-->/Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:13:7-24:18
-29            android:name="com.embeddeprinter.MainActivity"
-29-->/Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:14:9-37
-30            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
-30-->/Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:16:9-118
-31            android:exported="true"
-31-->/Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:19:9-32
-32            android:label="@string/app_name"
-32-->/Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:15:9-41
-33            android:launchMode="singleTask"
-33-->/Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:17:9-40
-34            android:windowSoftInputMode="adjustResize" >
-34-->/Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:18:9-51
-35            <intent-filter>
-35-->/Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:20:9-23:25
-36                <action android:name="android.intent.action.MAIN" />
-36-->/Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:21:13-65
-36-->/Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:21:21-62
-37
-38                <category android:name="android.intent.category.LAUNCHER" />
-38-->/Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:22:13-73
-38-->/Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:22:23-70
-39            </intent-filter>
-40        </activity>
-41        <activity
-41-->[pub.devrel:easypermissions:3.0.0] /Users/arkhitech/.gradle/caches/transforms-3/03fc674d7b5fe4b0969271e1b9dde459/transformed/jetified-easypermissions-3.0.0/AndroidManifest.xml:12:9-16:66
-42            android:name="pub.devrel.easypermissions.AppSettingsDialogHolderActivity"
-42-->[pub.devrel:easypermissions:3.0.0] /Users/arkhitech/.gradle/caches/transforms-3/03fc674d7b5fe4b0969271e1b9dde459/transformed/jetified-easypermissions-3.0.0/AndroidManifest.xml:13:13-86
-43            android:exported="false"
-43-->[pub.devrel:easypermissions:3.0.0] /Users/arkhitech/.gradle/caches/transforms-3/03fc674d7b5fe4b0969271e1b9dde459/transformed/jetified-easypermissions-3.0.0/AndroidManifest.xml:14:13-37
-44            android:label=""
-44-->[pub.devrel:easypermissions:3.0.0] /Users/arkhitech/.gradle/caches/transforms-3/03fc674d7b5fe4b0969271e1b9dde459/transformed/jetified-easypermissions-3.0.0/AndroidManifest.xml:15:13-29
-45            android:theme="@style/EasyPermissions.Transparent" />
-45-->[pub.devrel:easypermissions:3.0.0] /Users/arkhitech/.gradle/caches/transforms-3/03fc674d7b5fe4b0969271e1b9dde459/transformed/jetified-easypermissions-3.0.0/AndroidManifest.xml:16:13-63
-46    </application>
-47
-48</manifest>
+13-->/Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:5:5-76
+13-->/Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:5:22-73
+14    <uses-permission android:name="com.pos.permission.ACCESSORY_DATETIME" />
+14-->/Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:6:5-77
+14-->/Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:6:22-74
+15    <uses-permission android:name="com.pos.permission.ACCESSORY_LED" />
+15-->/Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:7:5-72
+15-->/Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:7:22-69
+16    <uses-permission android:name="com.pos.permission.ACCESSORY_BEEP" />
+16-->/Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:8:5-73
+16-->/Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:8:22-70
+17    <uses-permission android:name="com.pos.permission.ACCESSORY_RFREGISTER" />
+17-->/Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:9:5-79
+17-->/Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:9:22-76
+18    <uses-permission android:name="com.pos.permission.CARD_READER_ICC" />
+18-->/Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:10:5-74
+18-->/Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:10:22-71
+19    <uses-permission android:name="com.pos.permission.CARD_READER_PICC" />
+19-->/Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:11:5-75
+19-->/Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:11:22-72
+20    <uses-permission android:name="com.pos.permission.CARD_READER_MAG" />
+20-->/Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:12:5-74
+20-->/Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:12:22-71
+21    <uses-permission android:name="com.pos.permission.COMMUNICATION" />
+21-->/Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:13:5-72
+21-->/Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:13:22-69
+22    <uses-permission android:name="com.pos.permission.PRINTER" />
+22-->/Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:14:5-66
+22-->/Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:14:22-63
+23    <uses-permission android:name="com.pos.permission.SECURITY" />
+23-->/Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:15:5-67
+23-->/Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:15:22-64
+24    <uses-permission android:name="com.pos.permission.ACCESSORY_RFREGISTER" />
+24-->/Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:9:5-79
+24-->/Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:9:22-76
+25    <uses-permission android:name="com.pos.permission.EMVCORE" />
+25-->/Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:17:5-66
+25-->/Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:17:22-63
+26    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+26-->/Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:18:5-81
+26-->/Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:18:22-78
+27    <uses-permission android:name="android.permission.CAMERA" />
+27-->/Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:19:5-65
+27-->/Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:19:22-62
+28    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+28-->/Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:20:5-84
+28-->/Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:20:22-81
+29    <uses-permission android:name="android.permission.VIBRATE" />
+29-->/Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:21:5-66
+29-->/Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:21:22-63
+30    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+30-->/Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:22:5-79
+30-->/Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:22:22-76
+31
+32    <application
+32-->/Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:24:5-43:19
+33        android:name="com.embeddeprinter.MainApplication"
+33-->/Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:25:7-38
+34        android:allowBackup="false"
+34-->/Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:29:7-34
+35        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+35-->[androidx.core:core:1.5.0] /Users/arkhitech/.gradle/caches/transforms-3/f382564408e8806e991bcb7c984abfd6/transformed/core-1.5.0/AndroidManifest.xml:24:18-86
+36        android:debuggable="true"
+37        android:icon="@mipmap/ic_launcher"
+37-->/Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:27:7-41
+38        android:label="@string/app_name"
+38-->/Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:26:7-39
+39        android:roundIcon="@mipmap/ic_launcher_round"
+39-->/Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:28:7-52
+40        android:testOnly="true"
+41        android:theme="@style/AppTheme"
+41-->/Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:30:7-38
+42        android:usesCleartextTraffic="true" >
+42-->/Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/debug/AndroidManifest.xml:8:9-44
+43        <activity
+43-->/Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/debug/AndroidManifest.xml:11:9-111
+44            android:name="com.facebook.react.devsupport.DevSettingsActivity"
+44-->/Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/debug/AndroidManifest.xml:11:19-83
+45            android:exported="false" />
+45-->/Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/debug/AndroidManifest.xml:11:84-108
+46        <activity
+46-->/Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:31:7-42:18
+47            android:name="com.embeddeprinter.MainActivity"
+47-->/Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:32:9-37
+48            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+48-->/Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:34:9-118
+49            android:exported="true"
+49-->/Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:37:9-32
+50            android:label="@string/app_name"
+50-->/Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:33:9-41
+51            android:launchMode="singleTask"
+51-->/Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:35:9-40
+52            android:windowSoftInputMode="adjustResize" >
+52-->/Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:36:9-51
+53            <intent-filter>
+53-->/Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:38:9-41:25
+54                <action android:name="android.intent.action.MAIN" />
+54-->/Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:39:13-65
+54-->/Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:39:21-62
+55
+56                <category android:name="android.intent.category.LAUNCHER" />
+56-->/Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:40:13-73
+56-->/Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:40:23-70
+57            </intent-filter>
+58        </activity>
+59        <activity
+59-->[pub.devrel:easypermissions:3.0.0] /Users/arkhitech/.gradle/caches/transforms-3/03fc674d7b5fe4b0969271e1b9dde459/transformed/jetified-easypermissions-3.0.0/AndroidManifest.xml:12:9-16:66
+60            android:name="pub.devrel.easypermissions.AppSettingsDialogHolderActivity"
+60-->[pub.devrel:easypermissions:3.0.0] /Users/arkhitech/.gradle/caches/transforms-3/03fc674d7b5fe4b0969271e1b9dde459/transformed/jetified-easypermissions-3.0.0/AndroidManifest.xml:13:13-86
+61            android:exported="false"
+61-->[pub.devrel:easypermissions:3.0.0] /Users/arkhitech/.gradle/caches/transforms-3/03fc674d7b5fe4b0969271e1b9dde459/transformed/jetified-easypermissions-3.0.0/AndroidManifest.xml:14:13-37
+62            android:label=""
+62-->[pub.devrel:easypermissions:3.0.0] /Users/arkhitech/.gradle/caches/transforms-3/03fc674d7b5fe4b0969271e1b9dde459/transformed/jetified-easypermissions-3.0.0/AndroidManifest.xml:15:13-29
+63            android:theme="@style/EasyPermissions.Transparent" />
+63-->[pub.devrel:easypermissions:3.0.0] /Users/arkhitech/.gradle/caches/transforms-3/03fc674d7b5fe4b0969271e1b9dde459/transformed/jetified-easypermissions-3.0.0/AndroidManifest.xml:16:13-63
+64    </application>
+65
+66</manifest>

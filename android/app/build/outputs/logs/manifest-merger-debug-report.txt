@@ -1,10 +1,10 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:1:1-26:12
-INJECTED from /Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:1:1-26:12
-INJECTED from /Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:1:1-26:12
-INJECTED from /Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:1:1-26:12
-MERGED from /Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:1:1-26:12
+ADDED from /Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:1:1-44:12
+INJECTED from /Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:1:1-44:12
+INJECTED from /Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:1:1-44:12
+INJECTED from /Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:1:1-44:12
+MERGED from /Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:1:1-44:12
 MERGED from [com.facebook.flipper:flipper:0.125.0] /Users/arkhitech/.gradle/caches/transforms-3/b2ec3232205e095c09543a31d56ae642/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:8:1-18:12
 MERGED from [com.facebook.flipper:flipper-network-plugin:0.125.0] /Users/arkhitech/.gradle/caches/transforms-3/674677064ce29f9763dc420868735b8b/transformed/jetified-flipper-network-plugin-0.125.0/AndroidManifest.xml:8:1-15:12
 MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.125.0] /Users/arkhitech/.gradle/caches/transforms-3/df731ac58fe0112a493f9730ba0671c1/transformed/jetified-flipper-fresco-plugin-0.125.0/AndroidManifest.xml:8:1-15:12
@@ -66,13 +66,13 @@ INJECTED from /Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/debug/Android
 		INJECTED from /Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/debug/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:1:1-26:12
+		ADDED from /Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:1:1-44:12
 		INJECTED from /Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/debug/AndroidManifest.xml
 	xmlns:tools
 		ADDED from /Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/debug/AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from /Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:1:1-26:12
+		ADDED from /Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:1:1-44:12
 		INJECTED from /Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/debug/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:1:11-69
@@ -82,10 +82,80 @@ MERGED from [com.facebook.flipper:flipper:0.125.0] /Users/arkhitech/.gradle/cach
 MERGED from [com.facebook.flipper:flipper:0.125.0] /Users/arkhitech/.gradle/caches/transforms-3/b2ec3232205e095c09543a31d56ae642/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:15:5-67
 	android:name
 		ADDED from /Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:4:22-64
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:5:5-76
+MERGED from [com.facebook.flipper:flipper:0.125.0] /Users/arkhitech/.gradle/caches/transforms-3/b2ec3232205e095c09543a31d56ae642/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:16:5-76
+MERGED from [com.facebook.flipper:flipper:0.125.0] /Users/arkhitech/.gradle/caches/transforms-3/b2ec3232205e095c09543a31d56ae642/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:16:5-76
+	android:name
+		ADDED from /Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:5:22-73
+uses-permission#com.pos.permission.ACCESSORY_DATETIME
+ADDED from /Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:6:5-77
+	android:name
+		ADDED from /Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:6:22-74
+uses-permission#com.pos.permission.ACCESSORY_LED
+ADDED from /Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:7:5-72
+	android:name
+		ADDED from /Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:7:22-69
+uses-permission#com.pos.permission.ACCESSORY_BEEP
+ADDED from /Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:8:5-73
+	android:name
+		ADDED from /Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:8:22-70
+uses-permission#com.pos.permission.ACCESSORY_RFREGISTER
+ADDED from /Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:9:5-79
+	android:name
+		ADDED from /Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:9:22-76
+uses-permission#com.pos.permission.CARD_READER_ICC
+ADDED from /Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:10:5-74
+	android:name
+		ADDED from /Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:10:22-71
+uses-permission#com.pos.permission.CARD_READER_PICC
+ADDED from /Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:11:5-75
+	android:name
+		ADDED from /Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:11:22-72
+uses-permission#com.pos.permission.CARD_READER_MAG
+ADDED from /Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:12:5-74
+	android:name
+		ADDED from /Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:12:22-71
+uses-permission#com.pos.permission.COMMUNICATION
+ADDED from /Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:13:5-72
+	android:name
+		ADDED from /Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:13:22-69
+uses-permission#com.pos.permission.PRINTER
+ADDED from /Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:14:5-66
+	android:name
+		ADDED from /Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:14:22-63
+uses-permission#com.pos.permission.SECURITY
+ADDED from /Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:15:5-67
+	android:name
+		ADDED from /Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:15:22-64
+uses-permission#com.pos.permission.EMVCORE
+ADDED from /Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:17:5-66
+	android:name
+		ADDED from /Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:17:22-63
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:18:5-81
+	android:name
+		ADDED from /Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:18:22-78
+uses-permission#android.permission.CAMERA
+ADDED from /Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:19:5-65
+	android:name
+		ADDED from /Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:19:22-62
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from /Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:20:5-84
+	android:name
+		ADDED from /Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:20:22-81
+uses-permission#android.permission.VIBRATE
+ADDED from /Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:21:5-66
+	android:name
+		ADDED from /Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:21:22-63
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from /Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:22:22-76
 application
-ADDED from /Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:6:5-25:19
-MERGED from /Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:6:5-25:19
-MERGED from /Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:6:5-25:19
+ADDED from /Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:24:5-43:19
+MERGED from /Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:24:5-43:19
+MERGED from /Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:24:5-43:19
 MERGED from [com.facebook.react:react-native:0.68.2] /Users/arkhitech/.gradle/caches/transforms-3/7d9d92dc8ec1ba2e45aff2ecbb549550/transformed/jetified-react-native-0.68.2/AndroidManifest.xml:9:5-20
 MERGED from [com.facebook.react:react-native:0.68.2] /Users/arkhitech/.gradle/caches/transforms-3/7d9d92dc8ec1ba2e45aff2ecbb549550/transformed/jetified-react-native-0.68.2/AndroidManifest.xml:9:5-20
 MERGED from [pub.devrel:easypermissions:3.0.0] /Users/arkhitech/.gradle/caches/transforms-3/03fc674d7b5fe4b0969271e1b9dde459/transformed/jetified-easypermissions-3.0.0/AndroidManifest.xml:11:5-17:19
@@ -99,53 +169,53 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/arkh
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.5.0] /Users/arkhitech/.gradle/caches/transforms-3/f382564408e8806e991bcb7c984abfd6/transformed/core-1.5.0/AndroidManifest.xml:24:18-86
 	android:label
-		ADDED from /Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:8:7-39
-		ADDED from /Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:8:7-39
+		ADDED from /Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:26:7-39
+		ADDED from /Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:26:7-39
 	tools:ignore
 		ADDED from /Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/debug/AndroidManifest.xml:10:9-48
 	android:roundIcon
-		ADDED from /Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:10:7-52
-		ADDED from /Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:10:7-52
+		ADDED from /Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:28:7-52
+		ADDED from /Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:28:7-52
 	tools:targetApi
 		ADDED from /Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/debug/AndroidManifest.xml:9:9-29
 	android:icon
-		ADDED from /Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:9:7-41
-		ADDED from /Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:9:7-41
+		ADDED from /Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:27:7-41
+		ADDED from /Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:27:7-41
 	android:allowBackup
-		ADDED from /Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:11:7-34
-		ADDED from /Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:11:7-34
+		ADDED from /Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:29:7-34
+		ADDED from /Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:29:7-34
 	android:theme
-		ADDED from /Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:12:7-38
-		ADDED from /Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:12:7-38
+		ADDED from /Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:30:7-38
+		ADDED from /Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:30:7-38
 	android:usesCleartextTraffic
 		ADDED from /Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/debug/AndroidManifest.xml:8:9-44
 	android:name
-		ADDED from /Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:7:7-38
-		ADDED from /Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:7:7-38
+		ADDED from /Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:25:7-38
+		ADDED from /Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:25:7-38
 activity#com.embeddeprinter.MainActivity
-ADDED from /Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:13:7-24:18
+ADDED from /Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:31:7-42:18
 	android:label
-		ADDED from /Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:15:9-41
+		ADDED from /Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:33:9-41
 	android:launchMode
-		ADDED from /Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:17:9-40
+		ADDED from /Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:35:9-40
 	android:windowSoftInputMode
-		ADDED from /Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:18:9-51
+		ADDED from /Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:36:9-51
 	android:exported
-		ADDED from /Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:19:9-32
+		ADDED from /Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:37:9-32
 	android:configChanges
-		ADDED from /Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:16:9-118
+		ADDED from /Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:34:9-118
 	android:name
-		ADDED from /Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:14:9-37
+		ADDED from /Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:32:9-37
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:20:9-23:25
+ADDED from /Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:38:9-41:25
 action#android.intent.action.MAIN
-ADDED from /Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:21:13-65
+ADDED from /Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:39:13-65
 	android:name
-		ADDED from /Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:21:21-62
+		ADDED from /Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:39:21-62
 category#android.intent.category.LAUNCHER
-ADDED from /Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:22:13-73
+ADDED from /Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:40:13-73
 	android:name
-		ADDED from /Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:22:23-70
+		ADDED from /Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml:40:23-70
 uses-sdk
 INJECTED from /Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/main/AndroidManifest.xml
@@ -270,10 +340,6 @@ ADDED from /Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/debug/AndroidMan
 		ADDED from /Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/debug/AndroidManifest.xml:11:84-108
 	android:name
 		ADDED from /Users/arkhitech/Dev/EmbeddedPrinter/android/app/src/debug/AndroidManifest.xml:11:19-83
-uses-permission#android.permission.ACCESS_WIFI_STATE
-ADDED from [com.facebook.flipper:flipper:0.125.0] /Users/arkhitech/.gradle/caches/transforms-3/b2ec3232205e095c09543a31d56ae642/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:16:5-76
-	android:name
-		ADDED from [com.facebook.flipper:flipper:0.125.0] /Users/arkhitech/.gradle/caches/transforms-3/b2ec3232205e095c09543a31d56ae642/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:16:22-73
 activity#pub.devrel.easypermissions.AppSettingsDialogHolderActivity
 ADDED from [pub.devrel:easypermissions:3.0.0] /Users/arkhitech/.gradle/caches/transforms-3/03fc674d7b5fe4b0969271e1b9dde459/transformed/jetified-easypermissions-3.0.0/AndroidManifest.xml:12:9-16:66
 	android:label

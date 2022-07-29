@@ -45,6 +45,7 @@ public class EmbeddedPrinter extends ReactContextBaseJavaModule implements EasyP
     private String egpayTel = "Tel: +202 22760666 | +202 22760660";
     public static final int REQUEST_PERMISSION = 0x01;
     public static final String TAG = "EGPAY";
+    public String ReceiptData = "";
 
     EmbeddedPrinter(ReactApplicationContext context) {
         super(context);
@@ -64,12 +65,15 @@ public class EmbeddedPrinter extends ReactContextBaseJavaModule implements EasyP
 
     @ReactMethod
     public void initPrinter(final Promise p) {
-        getSmartpeakPermissions();
-        p.resolve("Hello world");
+//        getSmartpeakPermissions();
+//        p.resolve("Hello world");
     }
 
     @ReactMethod
-    public void getSmartpeakPermissions(final Promise p) {
+    public void getSmartpeakPermissions(String receiptData, final Promise p) {
+
+        this.ReceiptData = receiptData
+
         String[] perms = {
                 "com.pos.permission.SECURITY",
                 "com.pos.permission.PRINTER",
@@ -126,6 +130,8 @@ public class EmbeddedPrinter extends ReactContextBaseJavaModule implements EasyP
 //        ServiceManager.getInstence().getPrinter().addPrintLine(bitmapPrintLine);
 
         textPrintLine.setContent(LINE_BREAK);
+        ServiceManager.getInstence().getPrinter().addPrintLine(textPrintLine);
+        textPrintLine.setContent(this.ReceiptData);
         ServiceManager.getInstence().getPrinter().addPrintLine(textPrintLine);
 
         textPrintLine.setContent(LINE_BREAK);
