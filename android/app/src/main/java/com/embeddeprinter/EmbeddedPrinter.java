@@ -98,6 +98,7 @@ public class EmbeddedPrinter extends ReactContextBaseJavaModule implements EasyP
         }
     }
 
+
     @Override
     public void onPermissionsGranted(int requestCode, @NonNull List<String> perms) {
         if (requestCode == 1) {
@@ -170,4 +171,65 @@ public class EmbeddedPrinter extends ReactContextBaseJavaModule implements EasyP
             startPrinting();
         }
     }
+
+
+//    public boolean printSmartPeakReport( DailyReportModel.Data reportData) throws Exception {
+//
+//        Calendar c;
+//        c = Calendar.getInstance();
+//
+//
+//        String egpay;
+//        String time;
+//        String egpaySite = "www.egpay.com";
+//        String egpayTel = "Tel: +202 22760666 | +202 22760660";
+//
+//        if (LANG.equals("en")) {
+//            egpay = "Thanks for using EGPAY";
+//            time = "Date  : " + c.get(Calendar.YEAR) + "-" + (c.get(Calendar.MONTH) + 1) + "-" + c.get(Calendar.DATE);
+//        } else {
+//            egpay =  "شكرا لاستخدامكم ايجي باي";
+//            time = "التاريخ  : " + c.get(Calendar.YEAR) + "-" + (c.get(Calendar.MONTH) + 1) + "-" + c.get(Calendar.DATE);
+//        }
+//
+//
+//        Bitmap bitmap = BitmapFactory.decodeResource(context.getResources(), R.drawable.egpay_rev_m);
+//        bitmapPrintLine.setPosition(PrintLine.CENTER);
+//        bitmapPrintLine.setBitmap(bitmap);
+//        ServiceManager.getInstence().getPrinter().addPrintLine(bitmapPrintLine);
+//
+//        printLine(context.getResources().getString(R.string.daily_report), PrintLine.CENTER);
+//        textPrintLine.setContent(LINE_BREAK);
+//        ServiceManager.getInstence().getPrinter().addPrintLine(textPrintLine);
+//        printLine(time, align);
+//        textPrintLine.setContent(LINE_BREAK);
+//        ServiceManager.getInstence().getPrinter().addPrintLine(textPrintLine);
+//
+//        printLine(context.getResources().getString(R.string.initial_balance) + " " + reportData.getInitialBalance(), align);
+//        printLine(context.getResources().getString(R.string.total_consumed_) + " " + reportData.getTotalConsumed(), align);
+//        printLine(context.getResources().getString(R.string.total_invoices_count_) + " " + reportData.getTotalInvoicesCount(), align);
+//        printLine(context.getResources().getString(R.string.total_commission) + " " + reportData.getTotalCommission(), align);
+//        printLine(context.getResources().getString(R.string.compensations_) + " " + reportData.getCompensations(), align);
+//        printLine(context.getResources().getString(R.string.incoming_balance_) + " " + reportData.getIncomingBalance(), align);
+//        printLine(context.getResources().getString(R.string.credit_card_payments_) + " " + reportData.getCreditCardPayments(), align);
+//
+//        textPrintLine.setContent(LINE_BREAK);
+//        ServiceManager.getInstence().getPrinter().addPrintLine(textPrintLine);
+//        textPrintLine.setPosition(PrintLine.CENTER);
+//        textPrintLine.setContent(egpay);
+//        ServiceManager.getInstence().getPrinter().addPrintLine(textPrintLine);
+//        textPrintLine.setContent(egpaySite);
+//        ServiceManager.getInstence().getPrinter().addPrintLine(textPrintLine);
+//        textPrintLine.setContent(egpayTel);
+//        ServiceManager.getInstence().getPrinter().addPrintLine(textPrintLine);
+//        textPrintLine.setContent("\n\n\n");
+//        ServiceManager.getInstence().getPrinter().addPrintLine(textPrintLine);
+//
+//        ServiceManager.getInstence().getPrinter().beginPrint(null);
+//
+//        return true;
+//
+//
+//    }
+
 }
