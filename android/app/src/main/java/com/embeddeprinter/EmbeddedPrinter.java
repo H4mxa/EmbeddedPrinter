@@ -72,7 +72,7 @@ public class EmbeddedPrinter extends ReactContextBaseJavaModule implements EasyP
     @ReactMethod
     public void getSmartpeakPermissions(String receiptData, final Promise p) {
 
-        this.ReceiptData = receiptData
+        this.ReceiptData = receiptData;
 
         String[] perms = {
                 "com.pos.permission.SECURITY",
