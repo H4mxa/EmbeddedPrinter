@@ -77,6 +77,9 @@ public class EmbeddedPrinter extends ReactContextBaseJavaModule implements EasyP
         String[] perms = {
                 "com.pos.permission.SECURITY",
                 "com.pos.permission.PRINTER",
+                "com.pos.permission.CARD_READER_MAG",
+                "com.pos.permission.CARD_READER_ICC",
+                "com.pos.permission.CARD_READER_PICC",
         };
         if (EasyPermissions.hasPermissions(context, perms)) {
             startPrinting();
